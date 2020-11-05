@@ -51,7 +51,7 @@ export default class Menu {
 
     const menuToggle = this.spec.doc.createElement('div');
     menuToggle.setAttribute('id', 'menu-toggle');
-    menuToggle.textContent = '☰';
+    menuToggle.textContent = '▤';
 
     this.spec.doc.body.insertBefore(menuToggle, this.spec.doc.body.firstChild);
 
